@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tabla>
+  <columna>
+    <nombre>idpopup</nombre>
+    <tipo>integer</tipo>
+    <nulo>NO</nulo>
+  </columna>
+  <columna>
+    <nombre>url</nombre>
+    <tipo>text</tipo>
+    <nulo>NO</nulo>
+  </columna>
+  <columna>
+    <nombre>boton</nombre>
+    <tipo>text</tipo>
+    <nulo>YES</nulo>
+  </columna>
+  <restriccion>
+    <nombre>popup_pkey</nombre>
+    <consulta>PRIMARY KEY (idpopup)</consulta>
+  </restriccion>
+</tabla>
